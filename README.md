@@ -61,6 +61,11 @@ CREATE TABLE evento (
     tipo VARCHAR(30) NOT NULL,
     preco DECIMAL(10, 2)
 );
+
+CREATE TABLE tiposEvento (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KE,
+    tipo VARCHAR(20) NOT NULL
+);
 ```
 
 ---
