@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 75%;
+    gap: 1rem;
+}
+
+.filtragem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    min-width: 70%;
+    padding: 1rem 0.3rem;
+}
+
+#formFiltro {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 1.1rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#formFiltro input, select {
+    width: 100%;
+}
+
+input, select {
+    padding: 0.2rem;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+    width: 70%;
+}
+
+.primario {
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.primario:hover {
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid black;
+}
+
+.secundario {
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.secundario:hover {
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid black;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    padding: 1rem 0.3rem;
+    min-width: 70%;
+    & legend {
+        padding: 0 0.4rem;
+    }
+}
+
+#formCriarEvento {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 1rem;
+    gap: 0.5rem;
+}
+
+.camposCadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & input {
+        height: 3vh;
+    }
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    padding: 0.3rem 0.3rem;
+    gap: 1rem;
+    width: 70%;
+    margin-bottom: 5vh;
+    & span {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+.evento {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    align-items: center;
+    & span{
+        font-size: 1rem;
+        text-align: left;
+    }
+}
+
+.listagem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
